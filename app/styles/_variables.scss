@@ -1,0 +1,39 @@
+// Colors
+$primary-color: #222A34;
+$secondary-color: #A76905;
+$button-color: #636363;
+$black: #000000;
+$white: #ffffff;
+
+// Screen sizes
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$breakpoint-2xl: 1536px;
+
+// Transitions
+$transition-fast: 150ms ease-in-out;
+$transition-medium: 300ms ease-in-out;
+$transition-slow: 500ms ease-in-out;
+
+:root {
+    // colors
+    --primary-color: #{$primary-color};
+    --secondary-color: #{$secondary-color};
+    --button-color: #{$button-color};
+    --black: #{$black};
+    --white: #{$white};
+
+    // screen sizes
+    --sm: #{$sm};
+    --md: #{$md};
+    --lg: #{$lg};
+    --xl: #{$xl};
+    --2xl: #{$breakpoint-2xl};
+
+    // transitions
+    --transition-fast: #{$transition-fast};
+    --transition-medium: #{$transition-medium};
+    --transition-slow: #{$transition-slow};
+}

@@ -8,7 +8,9 @@ import {
 } from "react-router";
 
 import type { Route } from "./+types/root";
-import "./app.css";
+import "./styles/font.scss";
+import "./styles/default.scss";
+
 
 export const links: Route.LinksFunction = () => [
     { rel: "icon", type: "image/png", href: "/favicon/favicon-96x96.png", sizes: "96x96" },

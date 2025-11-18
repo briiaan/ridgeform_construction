@@ -1,4 +1,9 @@
 import type { Route } from "./+types/home";
+import Header from "~/components/header";
+import background from "/assets/ridgeform-background-image.jpg"
+
+import "../styles/home.scss"
+import Footer from "~/components/footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -39,11 +44,22 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-
 export default function Home() {
+
   return (
     <>
-    Website is under construction
+    <div id="homepage-header">
+          <Header isHome={true} />
+          <div id="background-image">
+            <img src={background}/>
+            <div id="title-header">
+              <p>
+              Building for Change. Constructing<br/> a Better Tomorrow
+              </p>
+            </div>
+          </div>
+    </div>
+    <Footer />
     </>
   );
 }
