@@ -31,9 +31,6 @@ export default function Footer() {
                     <div className="link-container">
                         <Link to="/terms">Terms</Link>
                     </div>
-                    <div className="link-container">
-                        <Link to="/resources">Forms & Documents</Link>
-                    </div>
                 </div>
             </div>
             <div>
