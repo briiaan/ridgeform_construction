@@ -35,3 +35,17 @@
         }
     }
 }
+#box-container {
+    width: 100%;
+    #box-container-inner {
+        background-color: variables.$primary-color;
+        margin: 20%;
+        p {
+            color: white;
+            height: 100px;
+            display: grid;
+            place-content: center;
+            text-align: center;
+        }
+    }
+}

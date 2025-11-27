@@ -1,0 +1,50 @@
+@use 'variables';
+
+#footer {
+    background-color: variables.$footer;
+    text-align: center;
+    #footer-inner {
+        display: grid;
+        justify-content: center;
+        padding-top: 85px;
+        padding-bottom: 30px;
+        #links-container {
+            display: flex;
+            justify-content: space-between;
+            justify-items: center;
+            width: 500px;
+            a {
+                text-decoration: none;
+                color: variables.$black;
+            }
+        }
+    }
+
+    #image-container {
+        margin-top: 70px;
+        #image-inner-container {
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+    #copyright-container {
+        margin-top: 10px;
+        padding-bottom: 25px;
+        #copyright-inner-container {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.link-container {
+    color: black;
+    text-decoration: none;
+}
+
+.link-container:a {
+    text-decoration: none;
+}

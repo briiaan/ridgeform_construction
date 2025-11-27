@@ -59,6 +59,12 @@ export default function Home() {
             </div>
           </div>
     </div>
+    <div id="box-container">
+      <div id="box-container-inner">
+        <p>Our construction services cover the entire Greater Seattle region. 
+          We’re committed to building excellence in every neighborhood. </p>
+      </div>
+      </div>
     <Footer />
     </>
   );

@@ -33,13 +33,13 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div>
-                <div>
-                    <img src={logo_blue} alt="Ridgeform Logo" onClick={() => {window.location.href = "/"}}/>
+            <div id="image-container">
+                <div id="image-inner-container">
+                    <Link to="/"><img src={logo_blue} alt="Ridgeform Logo"/></Link>
                     </div>
             </div>
-            <div>
-                <div>
+            <div id="copyright-container">
+                <div id="copyright-inner-container">
                     <p>
                     © Ridgeform Construction<br/>All Rights Reserved 
                     </p>
