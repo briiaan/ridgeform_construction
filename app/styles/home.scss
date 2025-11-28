@@ -35,10 +35,11 @@
         }
     }
 }
+
 #box-container {
     width: 100%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     border-radius: 10px;
     #box-container-inner {
         background-color: variables.$primary-color;
@@ -52,10 +53,13 @@
             display: grid;
             place-content: center;
             text-align: center;
-            margin-left: 20px;
-            margin-right: 20px;
-            font-size: 17px;
+            margin-left: 35px;
+            margin-right: 35px;
+            font-size: 22px;
             font-weight: 100;
+            height: fit-content;
+            padding-top: 65px;
+            padding-bottom: 65px;
         }
     }
 }

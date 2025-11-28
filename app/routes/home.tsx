@@ -65,6 +65,17 @@ export default function Home() {
           We’re committed to building excellence in every neighborhood. </p>
       </div>
       </div>
+      <div id="box-container2">
+        <div>
+          <div>
+            <p>
+            At Ridgeform Construction, we build with quality, innovation, and community at our core.            </p>
+          </div>
+          <div>
+            <img/>
+          </div>
+        </div>
+      </div>
     <Footer />
     </>
   );
